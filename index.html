@@ -20,31 +20,45 @@
             <p>Photo by <a href="">Halie West</a> on <a href="https://unsplash.com/@haliewestphoto">Unsplash</a></p>
         </div>
     </div>
-    <div >
-        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+    <div>
+        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. <br> Sign up <em>now</em> to get started.</p>
         <p>You <em>know</em> you want to.</p>
-        <div>
-            <h2>Let's do this!</h2>
-            <div>
-                <label for="fname"></label>
-                <input type="text" id="fname" name="fname">
-                <label for="lname"></label>
-                <input type="text" id="lname" name="lname">
+        <form action="" method="get" id="sign-up-form">
+            <div class="mainframe">
+                <h2>Let's do this!</h2>
+                <div class="line">
+                    <div>
+                        <label for="fname">FIRST NAME</label>
+                        <input type="text" id="fname" name="fname">
+                    </div>
+                    <div>
+                        <label for="lname">LAST NAME</label>
+                        <input type="text" id="lname" name="lname">
+                    </div>
+                </div>
+                <div class="line">
+                    <div>
+                        <label for="email">EMAIL</label>
+                        <input type="text" id="email" name="userEmail">
+                    </div>
+                    <div>
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="text" id="phone" name="userPhone">
+                    </div>
+                </div>
+                <div class="line">
+                    <div>
+                        <label for="pwd">PASSWORD</label>
+                        <input type="password" id="pwd" name="userPwd">
+                    </div>
+                    <div>
+                        <label for="pwdConfirm">CONFIRM PASSWORD</label>
+                        <input type="password" id="pwdConfirm">
+                    </div>
+                </div>
             </div>
-            <div>
-                <label for="email"></label>
-                <input type="text" id="email" name="userEmail">
-                <label for="phone"></label>
-                <input type="text" id="phone" name="userPhone">
-            </div>
-            <div>
-                <label for="pwd"></label>
-                <input type="text" id="pwd" name="userPwd">
-                <label for="pwdConfirm"></label>
-                <input type="text" id="pwdConfirm">
-            </div>
-        </div>
-        <button type="submit">Create Account</button>
+            <button type="submit">Create Account</button>
+        </form>
         <p>Already have an account? <a href="Google.com">Log in</a></p>
     </div>
 </body>
